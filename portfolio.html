@@ -30,9 +30,13 @@
         <nav class="site-nav">
           <a href="./index.html" class="logo-nav">Web<span>Studio</span></a>
           <ul class="nav-list list">
-            <li><a href="./index.html" class="nav-item link">Студія</a></li>
-            <li><a href="./portfolio.html" class="nav-item link current">Портфоліо</a></li>
-            <li><a href="" class="nav-item link">Контакти</a></li>
+            <li class="nav-list-item">
+              <a href="./index.html" class="nav-item link">Студія</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="./portfolio.html" class="nav-item link current">Портфоліо</a>
+            </li>
+            <li class="nav-list-item"><a href="" class="nav-item link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="header-contacts list">
@@ -66,12 +70,21 @@
           </ul>
           <ul class="portfolio-list list">
             <li class="portfolio-list-item">
-              <img
-                src="./images/portfolio/portfolio1.jpg"
-                alt="Розкритий ноутбук"
-                width="370"
-                height="294"
-              />
+              <div class="portfolio-thumb">
+                <img
+                  src="./images/portfolio/portfolio1.jpg"
+                  alt="Розкритий ноутбук"
+                  width="370"
+                  height="294"
+                />
+                <div class="overlay">
+                  <p class="overlay-text">
+                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів.
+                    Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
+                    приватну особу.
+                  </p>
+                </div>
+              </div>
               <div class="portfolio-description">
                 <h2 class="title-item">Технокряк</h2>
                 <p class="item-text">Веб-сайт</p>
